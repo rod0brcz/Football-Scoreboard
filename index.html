@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Football Scoreboard</title>
+</head>
+<body>
+    <div id="container">
+        <div id="home">
+            <h1>HOME</h1>
+            <div id="h-board">
+            <p id="h-score">0</p>
+            </div>
+            <div id="h-buttons">
+            <button onclick="hTouchdown()">+6</button>
+            <button onclick="hExtra()">+1</button>
+            <button onclick="hFieldgoal()">+3</button>
+            <button onclick="h2point()">+2</button>
+            </div>
+        </div>
+        <div>
+            <button onclick="newGame()">NEW GAME</button>
+        </div>
+        <div id="guest">
+            <h1>GUEST</h1>
+            <div id="g-board">
+                <p id="g-score">0</p>
+            </div>
+            <div id="g-buttons">
+            <button onclick="gTouchdown()">+6</button>
+            <button onclick="gExtra()">+1</button>
+            <button onclick="gFieldgoal()">+3</button>
+            <button onclick="g2point()">+2</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

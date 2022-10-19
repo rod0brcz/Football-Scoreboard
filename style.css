@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('http://fonts.cdnfonts.com/css/cursed-timer-ulil');
+body {
+    margin: auto;
+    background-color: #fdf0d5;
+    color: floralwhite;
+    width: 50%;
+    font-family: 'Oswald';
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border: 5px solid #003049;
+    background-color: #669bbc;
+    min-height: 50vh;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #c1121f;
+    font-size: 55px;
+}
+
+#home, #guest {
+    height: 100%;
+    width: 60%;
+    margin: -10px 0px 10px 0px;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+}
+
+
+p {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    padding: 15px 15px;
+}
+
+#h-board, #g-board{
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    margin-top: -60px;
+    margin-bottom: -10px;
+    display: block;
+    background-color: #003049;
+    height: 90px;
+    width:140px;
+}
+
+#h-buttons, #g-buttons {
+    margin-top: 20px;
+}
+
+button {
+    border: 2px solid #003049;
+    background-color: #669bbc;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 20px;
+    padding: 5px;
+}
